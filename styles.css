@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 2px solid #007BFF;
+    /* Add border to the input */
+    border-radius: 4px;
+    /* Rounded corners for the input */
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    /* Rounded corners for the button */
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition on hover */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 2rem;
+}
+
+.result-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    transition: transform 0.3s ease;
+    /* Smooth transform transition on hover */
+}
+
+.result-item:hover {
+    transform: translateY(-5px);
+    /* Add a slight lift effect on hover */
+}
+
+.result-item h2 {
+    margin-top: 0;
+    font-size: 24px;
+    /* Increase the font size */
+    color: #007BFF;
+    /* Use the same color as the links */
+}
+
+.result-item p {
+    margin: 0;
+}
+
+.result-item .pronunciation {
+    margin-bottom: 0.5rem;
+}
+
+.result-item .part-of-speech {
+    font-weight: bold;
+}
+
+.result-item .definition {
+    margin-bottom: 0.5rem;
+}
+
+.result-item .example {
+    font-style: italic;
+}
+
+.result-item .license {
+    font-size: 12px;
+    color: #555;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
